@@ -1,0 +1,145 @@
+/* for index.html */
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color:#f2f2f2 ;
+
+}
+
+header{
+    background-color: #111;
+    padding:15px 40px;
+
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo{
+    color:white;
+    margin:0;
+
+}
+
+nav{
+    margin-left: auto;
+
+}
+
+nav a{
+    color:white;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 18px;
+
+}
+
+nav a:hover{
+    color:orange;
+
+}
+
+.hero{
+    text-align: center;
+    margin-top: 150px;
+
+}
+
+.hero h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+
+}
+
+.hero p{
+    font-size: 20px;
+    color:#555;
+}
+
+
+/* for login.html */
+ body{
+    font-family: Arial,sans-serif;
+
+ }
+
+ .login-container{
+    width:300px;
+    margin:120px auto;
+    padding: 25px;
+    background:white;
+    border-radius:5px;
+    box-shadow: 0 0 8px gray;
+    text-align: center;
+    
+ }
+
+ input{
+    width: 90%;
+    padding:8px;
+    margin-top:5px ;
+
+ }
+
+button{
+    padding: 10px 20px;
+    background: black;
+    color:white;
+    border:none;
+    cursor:pointer;
+
+}
+
+button:hover{
+    background:orange;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+a:hover{
+    color:orange;
+
+}
+
+
+/* for register.html */
+
+.register-container{
+    width: 320px; 
+    margin:100px auto;
+    padding:25px;
+    background: 25px;
+    border-radius: 5px;
+    box-shadow: 0 0 8px gray;
+    text-align: center;
+
+}
+
+.register-container input{
+    width:90%;
+    padding:8px;
+    margin-top:5px;
+
+}
+
+.register-container button{
+    padding:10px 20px;
+    background: black;
+    color:white;
+    border:none;
+    cursor:pointer;
+
+}
+
+.register-container button:hover{
+    background: orange;
+}
